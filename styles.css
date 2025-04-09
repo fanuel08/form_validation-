@@ -1,0 +1,65 @@
+/* Base font and background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    padding: 30px;
+  }
+  
+  /* Style for the form */
+  form {
+    background: #fff;
+    padding: 20px 25px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Label styling */
+  label {
+    display: block;
+    margin-top: 15px;
+  }
+  
+  /* Style for all text inputs */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Button styling */
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for buttons */
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Error message styling */
+  .error {
+    color: red;
+    font-size: 0.9em;
+    margin-top: -5px;
+  }
+  
+  /* Success message styling */
+  #successMessage {
+    color: green;
+    margin-top: 15px;
+    font-weight: bold;
+  }

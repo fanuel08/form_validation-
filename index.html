@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Registration Form</title>
+
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Registration Form -->
+  <form id="registrationForm">
+
+    <!-- Name input -->
+    <label>Name:
+      <input type="text" id="name" />
+    </label>
+    <div class="error" id="nameError"></div>
+
+    <!-- Email input -->
+    <label>Email:
+      <input type="email" id="email" />
+    </label>
+    <div class="error" id="emailError"></div>
+
+    <!-- Password input -->
+    <label>Password:
+      <input type="password" id="password" />
+    </label>
+    <div class="error" id="passwordError"></div>
+
+    <!-- Confirm Password input -->
+    <label>Confirm Password:
+      <input type="password" id="confirmPassword" />
+    </label>
+    <div class="error" id="confirmPasswordError"></div>
+
+    <!-- Terms & Conditions checkbox -->
+    <label>
+      <input type="checkbox" id="terms" />
+      I agree to the terms and conditions
+    </label>
+    <div class="error" id="termsError"></div>
+
+    <!-- Submit button -->
+    <button type="submit">Submit</button>
+
+    <!-- Message to be displayed when form is successfully submitted -->
+    <div id="successMessage"></div>
+  </form>
+
+  <!-- Link to external JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
